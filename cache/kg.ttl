@@ -1,0 +1,201 @@
+@prefix ex: <http://animal.org/> .
+
+ex:barn a ex:Environment .
+
+ex:cat a ex:Animal ;
+    ex:appearsIn ex:cap_0,
+        ex:cap_1,
+        ex:cap_10,
+        ex:cap_11,
+        ex:cap_12,
+        ex:cap_14,
+        ex:cap_15,
+        ex:cap_16,
+        ex:cap_17,
+        ex:cap_18,
+        ex:cap_19,
+        ex:cap_2,
+        ex:cap_20,
+        ex:cap_21,
+        ex:cap_22,
+        ex:cap_23,
+        ex:cap_24,
+        ex:cap_25,
+        ex:cap_26,
+        ex:cap_27,
+        ex:cap_28,
+        ex:cap_29,
+        ex:cap_3,
+        ex:cap_4,
+        ex:cap_5,
+        ex:cap_6,
+        ex:cap_7,
+        ex:cap_8,
+        ex:cap_9 ;
+    ex:hasBehavior ex:sitting,
+        ex:sleeping,
+        ex:standing ;
+    ex:inEnvironment ex:grass,
+        ex:laptop .
+
+ex:cow a ex:Animal .
+
+ex:deer a ex:Animal .
+
+ex:dog a ex:Animal ;
+    ex:appearsIn ex:cap_30,
+        ex:cap_31,
+        ex:cap_32,
+        ex:cap_33,
+        ex:cap_34,
+        ex:cap_35,
+        ex:cap_36,
+        ex:cap_37,
+        ex:cap_38,
+        ex:cap_39,
+        ex:cap_40,
+        ex:cap_41,
+        ex:cap_42,
+        ex:cap_43,
+        ex:cap_44,
+        ex:cap_45,
+        ex:cap_46,
+        ex:cap_47,
+        ex:cap_48,
+        ex:cap_49 ;
+    ex:hasBehavior ex:running,
+        ex:sitting,
+        ex:standing,
+        ex:swimming ;
+    ex:inEnvironment ex:grass .
+
+ex:eating a ex:Behavior .
+
+ex:field a ex:Environment .
+
+ex:forest a ex:Environment .
+
+ex:horse a ex:Animal .
+
+ex:indoor a ex:Environment .
+
+ex:lying a ex:Behavior .
+
+ex:outdoor a ex:Environment .
+
+ex:road a ex:Environment .
+
+ex:sheep a ex:Animal .
+
+ex:cap_0 ex:hasText "a person holding a cat in their hands" .
+
+ex:cap_1 ex:hasText "a cat is being fed by a person" .
+
+ex:cap_10 ex:hasText "a cat sleeping in a cat bed" .
+
+ex:cap_11 ex:hasText "a cat is laying on a red couch" .
+
+ex:cap_12 ex:hasText "a cat playing with a toy on a couch" .
+
+ex:cap_14 ex:hasText "a cat is sitting in a tunnel" .
+
+ex:cap_15 ex:hasText "a cat sitting on a table with a flower on its head" .
+
+ex:cap_16 ex:hasText "a cat looking at a chicken in a kitchen" .
+
+ex:cap_17 ex:hasText "a cat sitting on a window sie" .
+
+ex:cap_18 ex:hasText "a cat sleeping on a bed with its head on the pillow" .
+
+ex:cap_19 ex:hasText "a cat sleeping on a blue blanket" .
+
+ex:cap_2 ex:hasText "a person is petting a cat on a leash" .
+
+ex:cap_20 ex:hasText "a cat laying on top of a laptop" .
+
+ex:cap_21 ex:hasText "a cat is sleeping on a laptop" .
+
+ex:cap_22 ex:hasText "a cat is playing with a ball in the grass" .
+
+ex:cap_23 ex:hasText "a cat sitting on the hood of a car" .
+
+ex:cap_24 ex:hasText "a cat is sleeping on a person's lap" .
+
+ex:cap_25 ex:hasText "a cat sleeping in a pink cat bed" .
+
+ex:cap_26 ex:hasText "a cat is laying on the ground next to a bowl" .
+
+ex:cap_27 ex:hasText "a cat sitting on a blue bench" .
+
+ex:cap_28 ex:hasText "a cat is laying on the floor next to a speaker" .
+
+ex:cap_29 ex:hasText "a cat is sitting on a window sie" .
+
+ex:cap_3 ex:hasText "a cat is sitting in the grass near a gate" .
+
+ex:cap_30 ex:hasText "a dog drinking water from a metal bowl" .
+
+ex:cap_31 ex:hasText "a dog with its tongue sticking out of its mouth" .
+
+ex:cap_32 ex:hasText "a black dog laying on the grass" .
+
+ex:cap_33 ex:hasText "a black dog laying in the grass" .
+
+ex:cap_34 ex:hasText "a dog laying in the grass" .
+
+ex:cap_35 ex:hasText "a dog running through the water in a lake" .
+
+ex:cap_36 ex:hasText "a dog standing on the beach looking out to the water" .
+
+ex:cap_37 ex:hasText "a person sitting on a bench with a dog" .
+
+ex:cap_38 ex:hasText "a dog sitting on a red chair in front of a red chair" .
+
+ex:cap_39 ex:hasText "a dog swimming in a pool with its head above the water" .
+
+ex:cap_4 ex:hasText "a cat with green eyes standing in the grass" .
+
+ex:cap_40 ex:hasText "a dog swimming in a pool with water" .
+
+ex:cap_41 ex:hasText "a dog swimming in a pool with a toy in its mouth" .
+
+ex:cap_42 ex:hasText "a dog wearing a colorful vest and a striped vest" .
+
+ex:cap_43 ex:hasText "a dog laying on the ground with a ball in its mouth" .
+
+ex:cap_44 ex:hasText "a small dog playing with a ball in the grass" .
+
+ex:cap_45 ex:hasText "a small dog laying in a bed" .
+
+ex:cap_46 ex:hasText "a white dog is laying under a blanket" .
+
+ex:cap_47 ex:hasText "a dog and a dog playing in the grass" .
+
+ex:cap_48 ex:hasText "a dog walking on a sidewalk next to a building" .
+
+ex:cap_49 ex:hasText "a dog and a dog are playing with a fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr fr" .
+
+ex:cap_5 ex:hasText "a black cat is standing on the ground" .
+
+ex:cap_6 ex:hasText "a cat standing on top of a wooden stool" .
+
+ex:cap_7 ex:hasText "a cat is sitting on top of a scratching post" .
+
+ex:cap_8 ex:hasText "a cat sitting on a chair" .
+
+ex:cap_9 ex:hasText "a cat is climbing on a shelf" .
+
+ex:laptop a ex:Environment .
+
+ex:running a ex:Behavior .
+
+ex:sleeping a ex:Behavior .
+
+ex:swimming a ex:Behavior .
+
+ex:grass a ex:Environment .
+
+ex:sitting a ex:Behavior .
+
+ex:standing a ex:Behavior .
+
